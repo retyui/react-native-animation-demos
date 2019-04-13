@@ -11,4 +11,5 @@
 // export { default } from "./src/Spring";
 // export { default } from "./src/OnScroll";
 // export { default } from "./src/DragAndInertia";
-export { default } from "./src/Parallel";
+// export { default } from "./src/Parallel";
+export { default } from "./src/Sequence";
