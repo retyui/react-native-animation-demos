@@ -9,4 +9,5 @@
 // export { default } from "./src/08"; // width/height percentage
 // export { default } from "./src/09"; // easing
 // export { default } from "./src/10"; // spring physics model
-export { default } from "./src/11"; // event
+// export { default } from "./src/11"; // event
+export { default } from "./src/12"; // decay
