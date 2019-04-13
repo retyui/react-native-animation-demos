@@ -1,13 +1,14 @@
 // @flow
-// export { default } from "./src/01"; // opacity
-// export { default } from "./src/02"; // translateXY
-// export { default } from "./src/03"; // scale
-// export { default } from "./src/04"; // width/height
-// export { default } from "./src/05"; // absolute position top\left\right
-// export { default } from "./src/06"; // color
-// export { default } from "./src/07"; // rotate
-// export { default } from "./src/08"; // width/height percentage
-// export { default } from "./src/09"; // easing
-// export { default } from "./src/10"; // spring physics model
-// export { default } from "./src/11"; // event
-export { default } from "./src/12"; // decay
+// export { default } from "./src/Opacity";
+// export { default } from "./src/Translate";
+// export { default } from "./src/Scale";
+// export { default } from "./src/WidthHeight";
+// export { default } from "./src/AbsoluteCoordinates";
+// export { default } from "./src/Color";
+// export { default } from "./src/Rotate";
+// export { default } from "./src/WidthHeightPercentage";
+// export { default } from "./src/Easing";
+// export { default } from "./src/Spring";
+// export { default } from "./src/OnScroll";
+// export { default } from "./src/DragAndInertia";
+export { default } from "./src/Parallel";

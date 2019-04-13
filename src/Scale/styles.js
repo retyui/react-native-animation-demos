@@ -1,3 +1,4 @@
+// @flow
 import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
@@ -8,13 +9,9 @@ const styles = StyleSheet.create({
     backgroundColor: "#F5FCFF"
   },
   box: {
+    backgroundColor: "pink",
     width: 200,
-    height: 200,
-    alignItems: "center",
-    justifyContent: "center"
-  },
-  text: {
-    fontSize: 16
+    height: 200
   }
 });
 
