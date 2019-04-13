@@ -15,4 +15,5 @@
 // export { default } from "./src/Sequence";
 // export { default } from "./src/Stagger";
 // export { default } from "./src/Delay";
-export { default } from "./src/InterpolateInterpolates";
+// export { default } from "./src/InterpolateInterpolates";
+export { default } from "./src/InterpolateInterpolatesColor";
