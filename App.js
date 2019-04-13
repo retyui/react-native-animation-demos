@@ -17,4 +17,5 @@
 // export { default } from "./src/Delay";
 // export { default } from "./src/InterpolateInterpolates";
 // export { default } from "./src/InterpolateColor";
-export { default } from "./src/InterpolateRotate";
+// export { default } from "./src/InterpolateRotate";
+export { default } from "./src/Extrapolate";
