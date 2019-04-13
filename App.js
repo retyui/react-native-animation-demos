@@ -6,4 +6,5 @@
 // export { default } from "./src/05"; // absolute position top\left\right
 // export { default } from "./src/06"; // color
 // export { default } from "./src/07"; // rotate
-export { default } from "./src/08"; // width/height percentage
+// export { default } from "./src/08"; // width/height percentage
+export { default } from "./src/09"; // easing
