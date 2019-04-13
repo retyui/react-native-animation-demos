@@ -13,4 +13,5 @@
 // export { default } from "./src/DragAndInertia";
 // export { default } from "./src/Parallel";
 // export { default } from "./src/Sequence";
-export { default } from "./src/Stagger";
+// export { default } from "./src/Stagger";
+export { default } from "./src/Delay";
