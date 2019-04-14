@@ -28,7 +28,7 @@ class App extends Component<{}> {
           scale: this._animation.interpolate({
             inputRange: [1, 2],
             outputRange: [1, 2],
-            extrapolate: "clamp",
+            extrapolate: "clamp"
             // extrapolate: "extend",
             // extrapolateLeft: "clamp",
             // extrapolateRight: "clamp"

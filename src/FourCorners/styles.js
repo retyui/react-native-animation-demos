@@ -5,14 +5,18 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: "center",
-    alignItems: "center"
+    alignItems: "center",
+    position: "relative"
   },
   box: {
+    borderWidth: 1,
+    borderColor: "red",
+    backgroundColor: "pink",
     width: 200,
     height: 200,
-    alignItems: "center",
-    justifyContent: "center",
-    backgroundColor: "pink"
+    position: "absolute",
+    top: 0,
+    left: 0
   }
 });
 

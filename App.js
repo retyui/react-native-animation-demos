@@ -21,4 +21,5 @@
 // export { default } from "./src/Extrapolate";
 // export { default } from "./src/ShapeAnimations";
 // export { default } from "./src/Cliff";
-export { default } from "./src/CancelAnimate";
+// export { default } from "./src/CancelAnimate";
+export { default } from "./src/FourCorners";
