@@ -18,4 +18,5 @@
 // export { default } from "./src/InterpolateInterpolates";
 // export { default } from "./src/InterpolateColor";
 // export { default } from "./src/InterpolateRotate";
-export { default } from "./src/Extrapolate";
+// export { default } from "./src/Extrapolate";
+export { default } from "./src/ShapeAnimations";
