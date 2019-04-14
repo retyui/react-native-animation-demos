@@ -16,13 +16,14 @@ class App extends Component<{}> {
     onPanResponderRelease: (_, { vx: x, vy: y }) => {
       Animated.decay(this._animation, {
         velocity: { x, y },
-        deceleration: 0.997
+        deceleration: 0.997,
+        useNativeDriver: true
       }).start();
     },
-    onPanResponderMove: Animated.event([
-      null,
-      { dx: this._animation.x, dy: this._animation.y }
-    ])
+    onPanResponderMove: Animated.event(
+      [null, { dx: this._animation.x, dy: this._animation.y }],
+      { useNativeDriver: true }
+    )
   });
 
   render() {
