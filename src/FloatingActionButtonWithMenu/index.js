@@ -23,7 +23,8 @@ type ButtonOptions = {|
   style: any
 |};
 
-class App extends Component<{}> {
+type Props = {||};
+class App extends Component<Props> {
   _isOpen = true;
   _animation = new Animated.Value(getAnimateValueByFlag(this._isOpen));
 

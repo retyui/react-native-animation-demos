@@ -4,7 +4,8 @@ import { Animated, ScrollView } from "react-native";
 
 import styles from "./styles";
 
-class App extends Component<{}> {
+type Props = {||};
+class App extends Component<Props> {
   _animation = new Animated.Value(1);
 
   render() {

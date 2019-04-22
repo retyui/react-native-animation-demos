@@ -4,7 +4,10 @@ import { Animated, TouchableWithoutFeedback, View } from "react-native";
 
 import styles from "./styles";
 
-class App extends Component<{}, {| visible: boolean |}> {
+type Props = {||};
+type State = {| visible: boolean |};
+
+class App extends Component<Props, State> {
   _animation = new Animated.Value(0);
 
   state = {

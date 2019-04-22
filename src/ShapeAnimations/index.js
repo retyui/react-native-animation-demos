@@ -13,7 +13,8 @@ const pathInterpolate = interpolate(startPath, endPath, {
   startSegmentLength: 1
 });
 
-class App extends Component<{}> {
+type Props = {||};
+class App extends Component<Props> {
   _animation = new Animated.Value(0);
 
   _pathRef = createRef<Path>();

@@ -4,7 +4,8 @@ import { Animated, TouchableWithoutFeedback, View, Text } from "react-native";
 
 import styles from "./styles";
 
-class App extends Component<{}> {
+type Props = {||};
+class App extends Component<Props> {
   _scaleAnimation = new Animated.Value(1);
   _colorAnimation = new Animated.Value(0);
 

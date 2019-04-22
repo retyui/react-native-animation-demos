@@ -12,7 +12,8 @@ import type { ViewLayoutEvent } from "ViewPropTypes";
 
 const { width, height } = Dimensions.get("window");
 
-class App extends Component<{}> {
+type Props = {||};
+class App extends Component<Props> {
   _animation = new Animated.ValueXY({ x: 0, y: 0 });
   _w: number = 0;
   _h: number = 0;

@@ -14,7 +14,7 @@ Image.prefetch(imageSource.uri);
 
 const cloneCount: number = 3;
 
-class App extends Component<{}> {
+class App extends Component<Props> {
   _heads: Array<{ animation: AnimatedValueXY }> = [
     ...new Array(cloneCount + 1)
   ].map(() => ({

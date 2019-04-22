@@ -6,7 +6,9 @@ import styles from "./styles";
 
 import type { TimingAnimationConfig } from "TimingAnimation";
 
-class App extends Component<{}> {
+type Props = {||};
+
+class App extends Component<Props> {
   _animation = new Animated.Value(0);
 
   _animateBox(options: TimingAnimationConfig, cb?: () => void) {
