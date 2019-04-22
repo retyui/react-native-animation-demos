@@ -24,4 +24,5 @@
 // export { default } from "./src/CancelAnimate";
 // export { default } from "./src/FourCorners";
 // export { default } from "./src/StaggeredHeads";
-export { default } from "./src/FloatingActionButtonWithMenu";
+// export { default } from "./src/FloatingActionButtonWithMenu";
+export { default } from "./src/HorizontalParallaxScrollView";
