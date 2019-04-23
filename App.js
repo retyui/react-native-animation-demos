@@ -27,5 +27,5 @@
 // export { default } from "./src/FloatingActionButtonWithMenu";
 // export { default } from "./src/HorizontalParallaxScrollView";
 // export { default } from "./src/FloatingHearts";
-export { default } from "./src/QuestionnaireProgressBar";
-
+// export { default } from "./src/QuestionnaireProgressBar";
+export { default } from "./src/SocialCommentModalAnimatedSwipeAway";
