@@ -26,4 +26,6 @@
 // export { default } from "./src/StaggeredHeads";
 // export { default } from "./src/FloatingActionButtonWithMenu";
 // export { default } from "./src/HorizontalParallaxScrollView";
-export { default } from "./src/FloatingHearts";
+// export { default } from "./src/FloatingHearts";
+export { default } from "./src/QuestionnaireProgressBar";
+
