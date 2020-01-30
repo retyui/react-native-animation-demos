@@ -1,31 +1,138 @@
-// @flow
-// export { default } from "./src/Opacity";
-// export { default } from "./src/Translate";
-// export { default } from "./src/Scale";
-// export { default } from "./src/WidthHeight";
-// export { default } from "./src/AbsoluteCoordinates";
-// export { default } from "./src/Color";
-// export { default } from "./src/Rotate";
-// export { default } from "./src/WidthHeightPercentage";
-// export { default } from "./src/Easing";
-// export { default } from "./src/Spring";
-// export { default } from "./src/OnScroll";
-// export { default } from "./src/DragAndInertia";
-// export { default } from "./src/Parallel";
-// export { default } from "./src/Sequence";
-// export { default } from "./src/Stagger";
-// export { default } from "./src/Delay";
-// export { default } from "./src/InterpolateInterpolates";
-// export { default } from "./src/InterpolateColor";
-// export { default } from "./src/InterpolateRotate";
-// export { default } from "./src/Extrapolate";
-// export { default } from "./src/ShapeAnimations";
-// export { default } from "./src/Cliff";
-// export { default } from "./src/CancelAnimate";
-// export { default } from "./src/FourCorners";
-// export { default } from "./src/StaggeredHeads";
-// export { default } from "./src/FloatingActionButtonWithMenu";
-// export { default } from "./src/HorizontalParallaxScrollView";
-// export { default } from "./src/FloatingHearts";
-// export { default } from "./src/QuestionnaireProgressBar";
-export { default } from "./src/SocialCommentModalAnimatedSwipeAway";
+import React from 'react';
+import {createDrawerNavigator} from '@react-navigation/drawer';
+import {NavigationNativeContainer} from '@react-navigation/native';
+
+const Drawer = createDrawerNavigator();
+
+function App() {
+  return (
+    <NavigationNativeContainer>
+      <Drawer.Navigator initialRouteName="Opacity">
+        <Drawer.Screen
+          name="Opacity"
+          component={require('./src/Opacity').default}
+        />
+        <Drawer.Screen
+          name="Translate"
+          component={require('./src/Translate').default}
+        />
+        <Drawer.Screen
+          name="Scale"
+          component={require('./src/Scale').default}
+        />
+        <Drawer.Screen
+          name="WidthHeight"
+          component={require('./src/WidthHeight').default}
+        />
+        <Drawer.Screen
+          name="AbsoluteCoordinates"
+          component={require('./src/AbsoluteCoordinates').default}
+        />
+        <Drawer.Screen
+          name="Color"
+          component={require('./src/Color').default}
+        />
+        <Drawer.Screen
+          name="Rotate"
+          component={require('./src/Rotate').default}
+        />
+        <Drawer.Screen
+          name="WidthHeightPercentage"
+          component={require('./src/WidthHeightPercentage').default}
+        />
+        <Drawer.Screen
+          name="Easing"
+          component={require('./src/Easing').default}
+        />
+        <Drawer.Screen
+          name="Spring"
+          component={require('./src/Spring').default}
+        />
+        <Drawer.Screen
+          name="OnScroll"
+          component={require('./src/OnScroll').default}
+        />
+        <Drawer.Screen
+          name="DragAndInertia"
+          component={require('./src/DragAndInertia').default}
+        />
+        <Drawer.Screen
+          name="Parallel"
+          component={require('./src/Parallel').default}
+        />
+        <Drawer.Screen
+          name="Sequence"
+          component={require('./src/Sequence').default}
+        />
+        <Drawer.Screen
+          name="Stagger"
+          component={require('./src/Stagger').default}
+        />
+        <Drawer.Screen
+          name="Delay"
+          component={require('./src/Delay').default}
+        />
+        <Drawer.Screen
+          name="InterpolateInterpolates"
+          component={require('./src/InterpolateInterpolates').default}
+        />
+        <Drawer.Screen
+          name="InterpolateColor"
+          component={require('./src/InterpolateColor').default}
+        />
+        <Drawer.Screen
+          name="InterpolateRotate"
+          component={require('./src/InterpolateRotate').default}
+        />
+        <Drawer.Screen
+          name="Extrapolate"
+          component={require('./src/Extrapolate').default}
+        />
+        <Drawer.Screen
+          name="ShapeAnimations"
+          component={require('./src/ShapeAnimations').default}
+        />
+        <Drawer.Screen
+          name="Cliff"
+          component={require('./src/Cliff').default}
+        />
+        <Drawer.Screen
+          name="CancelAnimate"
+          component={require('./src/CancelAnimate').default}
+        />
+        <Drawer.Screen
+          name="FourCorners"
+          component={require('./src/FourCorners').default}
+        />
+        <Drawer.Screen
+          name="StaggeredHeads"
+          component={require('./src/StaggeredHeads').default}
+        />
+        <Drawer.Screen
+          name="FloatingActionButtonWithMenu"
+          component={require('./src/FloatingActionButtonWithMenu').default}
+        />
+        <Drawer.Screen
+          name="HorizontalParallaxScrollView"
+          component={require('./src/HorizontalParallaxScrollView').default}
+        />
+        <Drawer.Screen
+          name="FloatingHearts"
+          component={require('./src/FloatingHearts').default}
+        />
+        <Drawer.Screen
+          name="QuestionnaireProgressBar"
+          component={require('./src/QuestionnaireProgressBar').default}
+        />
+        <Drawer.Screen
+          name="SocialCommentModalAnimatedSwipeAway"
+          component={
+            require('./src/SocialCommentModalAnimatedSwipeAway').default
+          }
+        />
+      </Drawer.Navigator>
+    </NavigationNativeContainer>
+  );
+}
+
+export default App;
