@@ -23,7 +23,7 @@ class App extends Component<Props> {
     },
     onPanResponderMove: Animated.event(
       [null, { dx: this._animation.x, dy: this._animation.y }],
-      { useNativeDriver: true }
+
     )
   });
 
